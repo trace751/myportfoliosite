@@ -5,6 +5,6 @@ $('#hidden-content p').hide().fadeIn(800).animate({'letter-spacing': '15px'}, 20
 //Fade in the subtitle
 $('#hidden-content span').hide().delay(2200).fadeIn(800);
 //Fade out the intro page
-$('#hidden-body').delay(5000).fadeOut(300);
+$('#hidden-body').delay(4000).fadeOut(500);
 
 });
