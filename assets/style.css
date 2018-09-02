@@ -1,0 +1,50 @@
+/* Main Style Sheet for Portfolio*/
+
+/*===  Reset Styles ===*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*=== Intro Text ===*/
+
+#hidden-body {
+	background-color: black;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+}
+
+#hidden-content {
+	width: 100%;
+	text-align: center;
+	position: relative;
+	top: 30%;
+}
+
+#hidden-content p {
+	color: #fff;
+	font-size: 4em;
+	font-family: 'Quicksand', sans-serif;
+	letter-spacing: .5em;
+	font-weight: 700;
+}
+
+#hidden-content span{
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	color: #fff;
+	display: inline-block;
+}
+
+/*=== Media Screens ===*/
+
+@media screen and (max-width: 700px){
+	#hidden-content p{
+		font-size: 15px;
+	}
+}
