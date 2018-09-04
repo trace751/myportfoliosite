@@ -6,6 +6,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+		font-family: 'Quicksand', sans-serif;
+
 }
 
 /*=== Intro Text ===*/
@@ -26,10 +28,9 @@
 	top: 30%;
 }
 
-#hidden-content p {
+#hidden-content h1 {
 	color: #fff;
 	font-size: 4em;
-	font-family: 'Quicksand', sans-serif;
 	letter-spacing: .5em;
 	font-weight: 700;
 }
@@ -44,20 +45,77 @@
 /*=== End Intro Styles ===*/
 
 #main-wrapper {
-	background: url('bg-img.jpg') no-repeat center center;
-	background-size: cover;
+	/*background: url('bg.jpg'), linear-gradient(#e66465, #9198e5);*/
+/*	background-size: cover;*/
 	height: 100vh;
 }
 
 
+header {
+	padding: 40px;
+}
 
+.logo {
+	float: left;
+}
 
+.logo h1{
+	color: #fff;
+}
 
+nav ul {
+	float: right;
+}
 
+nav ul li {
+	display: block;
+	list-style-type: none;
+	padding: 20px 10px 0 0;
+}
 
+nav ul li a {
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 2px;
+	padding: 10px;
+	text-decoration: none;
+	padding-top: 10px;
+}
 
+nav ul li a:hover {
+	text-decoration: line-through;
+}
 
+#main-wrapper {
+	background-image: radial-gradient(#1c1c1c 50%, #0b0b0b 50%);
+background-size: 4px 4px;
+}
 
+main {
+	clear: both;
+}
+
+.main-text h1 {
+	color: #fff;
+	font-size: 4em;
+	padding-left: 40px;
+	margin-top: 20%;
+	font-family: 'Roboto', "sans-serif";
+	letter-spacing: 3px;
+}
+
+.main-text p{
+	color: #C4AC70;
+	padding-left: 40px;
+}
+
+.box {
+	float: left;
+	width: 33.3%;
+	height: 400px;
+	background-color: #050505;
+	border: 10px solid #000;
+}
 
 
 
