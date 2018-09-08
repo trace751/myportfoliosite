@@ -87,8 +87,10 @@ nav ul li a:hover {
 }
 
 #main-wrapper {
-	background-image: radial-gradient(#1c1c1c 50%, #0b0b0b 50%);
-background-size: 4px 4px;
+/*	background-image: radial-gradient(#1c1c1c 50%, #0b0b0b 50%);
+background-size: 4px 4px;*/
+
+background-color: #1F1F1F;
 }
 
 main {
