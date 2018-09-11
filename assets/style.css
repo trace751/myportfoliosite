@@ -99,6 +99,7 @@ nav ul li a:hover {
 	text-decoration: line-through;
 }
 
+<<<<<<< HEAD
 .right-main{
 	padding-left: 85px;
 	height: 100%;
@@ -112,6 +113,13 @@ nav ul li a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+=======
+#main-wrapper {
+/*	background-image: radial-gradient(#1c1c1c 50%, #0b0b0b 50%);
+background-size: 4px 4px;*/
+
+background-color: #1F1F1F;
+>>>>>>> ca4771e3599923e4df3c644c5fa0b4440c929776
 }
 
 .main-text {
