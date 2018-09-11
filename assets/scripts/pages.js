@@ -2,21 +2,21 @@ $(document).ready(function(){
 
 window.sr = ScrollReveal();
 		sr.reveal('.main-about', {
-			duration: 2000,
-			origin: 'left',
+			duration: 1000,
+			origin: 'right',
 			distance: '200px',
 			});
 
 		sr.reveal('.main-project', {
-			duration: 2000,
-			origin: 'left',
+			duration: 1000,
+			origin: 'right',
 			distance: '200px',
 			});
 
 
 		sr.reveal('.main-contact', {
-			duration: 2000,
-			origin: 'left',
+			duration: 1000,
+			origin: 'right',
 			distance: '200px',
 			});
 
