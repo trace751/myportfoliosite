@@ -7,4 +7,11 @@ $('#hidden-content span').hide().delay(2200).fadeIn(800);
 //Fade out the intro page
 $('#hidden-body').delay(4000).fadeOut(500);
 
+let mobileNav = document.querySelector('.menu');
+let navDrawer = document.querySelector('.left-nav');
+
+mobileNav.addEventListener('click', function(){
+	navDrawer.classList.toggle('left-nav-expanded');
+});
+
 });
