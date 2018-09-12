@@ -36,7 +36,7 @@
 }
 
 #hidden-content span{
-	font-size: 20px;
+	font-size: 1.2em;
 	font-family: 'Quicksand', sans-serif;
 	color: #000;
 	display: inline-block;
@@ -47,7 +47,7 @@
 
 .logo h1{
 	color: #fff;
-	font-size: 50px;
+	font-size: 2.5em;
 	font-family: 'Roboto', "sans-serif";
 	text-align: center;
 }
@@ -74,7 +74,7 @@ nav ul li {
 
 nav ul li a {
 	color: #fff;
-	font-size: 10px;
+	font-size: .7em;
 	letter-spacing: 2px;
 	padding: 10px;
 	text-decoration: none;
@@ -99,7 +99,7 @@ nav ul li a:hover {
 
 
 .right-main span {
-	border: 1px solid red;
+	border: 1px solid #21ddff;
 	margin-bottom: 10px;
 	display: block;
 	width: 30px;
@@ -137,7 +137,7 @@ nav ul li a:hover {
 
 .main-text p{
 	color: #fff;
-	font-size: 20px;
+	font-size: 1em;
 }
 
 .main-text a {
@@ -161,35 +161,60 @@ nav ul li a:hover {
     bottom: 0;
     top: 0;
     padding: 80px 10px;
+    display: flex;
+    clear: both;
 }
 
 /*=== About Me Section ===*/
 
-#about {
-	height: 100vh;
-	background-color: gray;
-	width: calc(100% - 85px);
-	margin-left: 85px;
-	position: absolute;
-	top: 0;
-	visibility: hidden;
+.main-about .left-section{
+	flex: 3;
 }
 
-#contact {
-	height: 100vh;
-	background-color: red;
-	width: calc(100% - 85px);
-	margin-left: 85px;
-	position: absolute;
-	top: 0;
-	visibility: hidden;
+.left-section img {
+	width: 100%;
+	max-width: 100%;
 }
+
+.main-about .right-section{
+    flex: 2;
+    background-color: #fafafa;
+    margin-right: 0px;
+}
+
+.main-about p {
+	font-size: 1.5em;
+}
+
+.main-about .right-section hr {
+	margin: 20px 0px;
+	width: 100px;
+	border-color: #21ddff;
+
+}
+
+
+
 
 /*=== Media Screens ===*/
+
+@media (max-width: 1150px){
+	.main-about .right-section p {
+		font-size: 1em;
+	}
+}
 
 @media (min-width: 700px){
 	.menu{
 		display: none;
+	}
+	.main-about .right-section{
+		height: 400px;
+	    position: relative;
+	    right: 180px;
+	    top: 100px;
+	    padding: 50px;
+	    display: table;
 	}
 }
 
@@ -200,7 +225,7 @@ nav ul li a:hover {
 	}
 
 	#hidden-content p{
-		font-size: 15px;
+		font-size: .5px;
 	}
 
 	.left-nav {
@@ -227,5 +252,14 @@ nav ul li a:hover {
 	.main-about,
 	.main-project{
 		left: 0;
-	} 
+	}
+
+	.main-about {
+		flex-direction: column;
+	}
+
+	.main-about .left-section{
+		flex: 0;
+	}
+
 }
