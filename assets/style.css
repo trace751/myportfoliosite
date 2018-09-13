@@ -161,11 +161,15 @@ nav ul li a:hover {
     bottom: 0;
     top: 0;
     padding: 80px 10px;
-    display: flex;
     clear: both;
 }
 
 /*=== About Me Section ===*/
+
+.main-about,
+.main-contact{
+	    display: flex;
+}
 
 .main-about .left-section{
 	flex: 3;
@@ -193,7 +197,22 @@ nav ul li a:hover {
 
 }
 
+/*=== Contact Me Section ===*/
 
+.main-contact {
+	background-color: #1A1A1A;
+	color: #fff;
+}
+
+.contact-left {
+	flex: 1;
+	text-align: center;
+}
+
+.contact-right{
+	flex: 3;
+	text-align: center;
+}
 
 
 /*=== Media Screens ===*/
@@ -215,6 +234,10 @@ nav ul li a:hover {
 	    top: 100px;
 	    padding: 50px;
 	    display: table;
+	}
+
+	.contact-right-content {
+	width: 50%;
 	}
 }
 
@@ -254,7 +277,8 @@ nav ul li a:hover {
 		left: 0;
 	}
 
-	.main-about {
+	.main-about,
+	.main-contact {
 		flex-direction: column;
 	}
 
