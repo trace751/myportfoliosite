@@ -240,6 +240,28 @@ nav ul li a:hover {
 	visibility: hidden;
 }
 
+/*=== Projects ===*/
+
+.projects {
+	display: flex;
+	padding-top: 50px;
+}
+
+.project-left,
+.project-right{
+	flex: 1;
+}
+
+.project-right img {
+	max-width: 100%;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.project-left-content p {
+	padding: 20px 0;
+}
+
 
 /*=== Media Screens ===*/
 
@@ -271,6 +293,10 @@ nav ul li a:hover {
 		display: inline-block;
 		padding-right: 50px;
 		font-size: 1.5em;
+	}
+
+	.project-left-content {
+    	padding: 10%;
 	}
 }
 
@@ -326,4 +352,7 @@ nav ul li a:hover {
 		list-style: none;
 	}
 
+	.projects {
+		flex-direction: column;
+	}
 }
