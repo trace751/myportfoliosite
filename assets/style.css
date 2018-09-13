@@ -10,6 +10,11 @@
 
 }
 
+.right-main a {
+	text-decoration: none;
+	color: #AC854F;
+}
+
 /*=== Intro Text ===*/
 
 #hidden-body {
@@ -98,7 +103,7 @@ nav ul li a:hover {
 }
 
 
-.right-main span {
+.menu span {
 	border: 1px solid #21ddff;
 	margin-bottom: 10px;
 	display: block;
@@ -200,18 +205,39 @@ nav ul li a:hover {
 /*=== Contact Me Section ===*/
 
 .main-contact {
-	background-color: #1A1A1A;
-	color: #fff;
+	background-color: #fff;
 }
 
-.contact-left {
-	flex: 1;
-	text-align: center;
+.contact-left h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
 }
 
-.contact-right{
-	flex: 3;
-	text-align: center;
+.contact-left span {
+	font-size: 3em;
+	color: #c8cacc;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 800;
+	letter-spacing: 2px;
+}
+
+.contact-left span a {
+	color: #AC854F;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 800;
+	letter-spacing: 2px;
+}
+
+.contact-left p {
+	font-size: 2em;
+}
+
+.contact-left hr{
+	margin: 40px 0px;
+}
+
+.contact-left ul {
+	visibility: hidden;
 }
 
 
@@ -236,8 +262,15 @@ nav ul li a:hover {
 	    display: table;
 	}
 
-	.contact-right-content {
-	width: 50%;
+	.contact-left {
+		margin: 200px;
+		text-align: left;
+	}
+
+	.contact-left ul li {
+		display: inline-block;
+		padding-right: 50px;
+		font-size: 1.5em;
 	}
 }
 
@@ -284,6 +317,12 @@ nav ul li a:hover {
 
 	.main-about .left-section{
 		flex: 0;
+	}
+
+	.contact-left ul li {
+		padding-top: 10px;
+		font-size: 1.5em;
+		text-align: center;
 	}
 
 }
