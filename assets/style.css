@@ -167,6 +167,7 @@ nav ul li a:hover {
     top: 0;
     padding: 80px 10px;
     clear: both;
+    overflow-y: scroll;
 }
 
 /*=== About Me Section ===*/
@@ -244,7 +245,22 @@ nav ul li a:hover {
 
 .projects {
 	display: flex;
-	padding-top: 50px;
+	padding-top: 110px;
+}
+
+.project-left h1 {
+	font-family: 'Roboto', sans-serif;
+	color: #9a9a9a;
+}
+
+.project-left hr {
+	margin: 10px 0;
+	width: 100px;
+}
+
+.project-left a:hover{
+	font-size: 20px;
+	transition: 1s ease-out;
 }
 
 .project-left,
@@ -297,6 +313,10 @@ nav ul li a:hover {
 
 	.project-left-content {
     	padding: 10%;
+	}
+
+	.projects {
+		padding-right: 10%;
 	}
 }
 
